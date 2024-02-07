@@ -96,8 +96,8 @@
     opacity: 0.65;
   }
   
-  nav a[href*="coderslab.pl"] {
-    background-color: #faba20;
+  nav a[href*="https://www.linkedin.com/in/piotr-hewko-pl/"] {
+    background-color: #e66216;
     padding: 6px 12px;
     border-radius: 15px;
   }
@@ -256,3 +256,29 @@
     text-align: center;
   }
   
+    /*---------------------------------
+          Hero Image jako zdjecia do podkladu
+  ----------------------------------*/
+
+.hero-image {
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.goldenline.pl/user_photo/097/user_205409_79bc14_huge.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
